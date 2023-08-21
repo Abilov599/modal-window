@@ -28,6 +28,7 @@ class App extends Component {
           text={
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quam facere officia totam quis tempore voluptatibus labore ullam eum dolorum?"
           }
+          closeBtn={false}
           isOpen={showModal}
           onClick={() => this.showHideModal("showModal")}
           actions={
@@ -50,6 +51,7 @@ class App extends Component {
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatem, ad corrupti aperiam labore quae quidem, eum soluta sequi ipsum vel quam laborum fugit minima quo odio sit enim praesentium."
           }
           header={"Second Modal"}
+          closeBtn={true}
           isOpen={showModal2}
           onClick={() => this.showHideModal("showModal2")}
           actions={
